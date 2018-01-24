@@ -51,6 +51,6 @@ P1 = function(times, size){
 }
 
 # call the function
-res = P1(5, 1000)
+res = P1(5, 10000)
 res
 
