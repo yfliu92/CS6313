@@ -1,3 +1,5 @@
 *.docx
 *.png
 *.pdf
+.Rproj.user
+2
