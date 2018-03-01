@@ -26,7 +26,6 @@ pairs(college[,1:10], main="College[, 1:10]")
 
 # (iii)
 # Outstate vs Private
-
 plot(college$Private, college$Outstate, main="Outstate vs Private")
 
 # (iv)
