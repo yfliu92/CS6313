@@ -1,4 +1,3 @@
-library(boot)
 # read data
 Ad = read.csv('Advertising.csv', header = T)
 
@@ -7,6 +6,7 @@ par(mfrow=c(1,2))
 plot(Ad$TV, Ad$sales, main = 'TV-sales')
 plot(Ad$radio, Ad$sales, main = 'radio-sales')
 
+library(boot)
 TV = Ad$TV
 sales = Ad$sales
 radio = Ad$radio
