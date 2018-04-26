@@ -1,4 +1,5 @@
-df <- data.frame(read.csv("~/Downloads/bodytemp-heartrate(1).csv"));
+d = read.csv("bodytemp-heartrate.csv", header = T)
+df <- data.frame()
 # Calculate mean body temperature of male
 m1b = mean(df[df$gender==1,]$body_temperature);
 m1b;
